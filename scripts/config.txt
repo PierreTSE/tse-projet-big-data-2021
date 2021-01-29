@@ -1,0 +1,9 @@
+[Hadoop]
+address=localhost
+port=2222
+username=root
+password=projetbigdata
+source_directory=/tmp/data
+
+[Local]
+target_local_directory=D:/Cours/Fise3/Big_data/Projet_Big_data/data et notebook/data
