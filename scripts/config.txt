@@ -1,9 +1,12 @@
 [Hadoop]
+# éléments de connexion ssh vers hadoop
 address=localhost
 port=2222
 username=root
 password=projetbigdata
+# répertoire hdfs où sont stockées les données
 source_directory=/tmp/data
 
 [Local]
+# répertoire local de destination des données téléchargées
 target_local_directory=D:/Cours/Fise3/Big_data/Projet_Big_data/data et notebook/data
