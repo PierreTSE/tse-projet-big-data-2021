@@ -1,7 +1,0 @@
-ssh root@127.0.0.1 -p 2222
-ssh admin@127.0.0.1 -p 2222
-
-
-ssh root@127.0.0.1 -p 2222
-hdfs dfs -get ./data/data.json #
-pscp -P 2222 root@127.0.0.1:./data.json ./
