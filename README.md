@@ -1,8 +1,8 @@
 # TSE Projet Big Data 2021
 
 ## Équipe
-Alexandre Fouquet\
 Pierre Giraud\
+Alexandre Fouquet\
 Youness Boumahdi
 
 ## Traitement de données
@@ -13,7 +13,7 @@ Les données, la plupart des modèles entraînés, ainsi que l'objet de prétrai
 
 ## Documentation des Scripts
 Cette partie comporte les informations nécessaires pour pouvoir lancer les scripts fournis avec ce projet.
-Vous retrouverez au :
+Vous retrouverez :
 - l'ensemble des modules Python nécessaires
 - les informations associées au fichier config.txt et leur script associé.
 
