@@ -16,7 +16,7 @@ A installer au préalable:
 
 pip install paramiko
 
-Fichier **config** : config.txt
+**Fichier config** : config.txt
 
 Pour le lancer: python3 ConnectSSH.py
 
@@ -29,7 +29,7 @@ pip install boto3
 
 pip install configparser
 
-Fichier **config** : properties.txt 
+**Fichier config** : properties.txt 
 
 Pour le lancer: python3 create_instance.py
 
@@ -48,7 +48,7 @@ pip install pymongo
 
 pip install pandas
 
-Fichier **config**: properties.txt 
+**Fichier config**: properties.txt 
 
 Pour le lancer: python3 download_ec2_s3_local.py
 
@@ -63,7 +63,7 @@ pip install paramiko
 
 pip install configparser
 
-Fichier **config**: properties.txt 
+**Fichier config**: properties.txt 
 
 Pour le lancer: python3 process_ec2.py
 
@@ -80,6 +80,6 @@ pip install paramiko
 pip install configparser
 
 
-Fichier **config**: properties.txt 
+**Fichier config**: properties.txt 
 
 Pour le lancer: python3 upload_local_s3_ec2.py
