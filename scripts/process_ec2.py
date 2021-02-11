@@ -1,24 +1,21 @@
-import boto3
-import botocore
-import paramiko
-import os
 import configparser
-import time
+import os
+
+import paramiko
 
 os.path.dirname(os.path.abspath(__file__))
 config = configparser.RawConfigParser()
 config.read('properties.txt')
 
-KEY=config.get('AWS','aws_access_key_id')
-SECRET=config.get('AWS','aws_secret_access_key')
-Token=config.get('AWS','aws_session_token')
-bucket_name=config.get('AWS','bucket_name')
-dossier_local_data=config.get('AWS','dossier_local_data')
-dossier_local_result=config.get('AWS','dossier_local_result')
-username=config.get('AWS','username')
-hostname=config.get('AWS','hostname')
-paire_cle=config.get('AWS','paire_cle')
-
+KEY = config.get('AWS', 'aws_access_key_id')
+SECRET = config.get('AWS', 'aws_secret_access_key')
+Token = config.get('AWS', 'aws_session_token')
+bucket_name = config.get('AWS', 'bucket_name')
+dossier_local_data = config.get('AWS', 'dossier_local_data')
+dossier_local_result = config.get('AWS', 'dossier_local_result')
+username = config.get('AWS', 'username')
+hostname = config.get('AWS', 'hostname')
+paire_cle = config.get('AWS', 'paire_cle')
 
 # Connexion ssh a l'instance
 key = paramiko.RSAKey.from_private_key_file(paire_cle)
@@ -48,10 +45,6 @@ try:
 except Exception:
     print("ERREUR CONNEXION")
 
-
 """
 sudo yum install python3 -y ; sudo pip3 install -r requirements.txt; cd /home/ec2-user; mkdir result ; cd data ; python3 ProjetBigData2021-Copie.py
 """
-
-
-
